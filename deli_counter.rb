@@ -17,7 +17,8 @@ end
 
 def take_a_number(queue, name)
   queue << name
-  puts "Welcome #{name}. You are number #{queue.length} in line."
+  count = queue.length
+  puts "Welcome #{name}. You are number #{count} in line."
 end
 
 def now_serving(queue)
