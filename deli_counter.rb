@@ -9,7 +9,7 @@ def line(queue)
       new_array.push("#{i}. #{guest} ")
       i += 1
     end
-    puts "The line is currently #{new_array.join( )}"
+    puts "The line is currently: #{new_array.join( )}"
   else queue.length == 0
     puts "The line is currently empty."  
   end
