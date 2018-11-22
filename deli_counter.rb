@@ -16,7 +16,7 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
-  queue.push(name)
+  queue << name
   puts "Welcome #{name}. You are number #{queue.length} in line."
 end
 
